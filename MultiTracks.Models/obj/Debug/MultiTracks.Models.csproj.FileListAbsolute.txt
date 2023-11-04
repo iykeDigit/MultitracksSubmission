@@ -1,0 +1,6 @@
+C:\Users\IKECHUKWU\Desktop\MultiTracks\.net\MultiTracks.Models\bin\Debug\MultiTracks.Models.dll
+C:\Users\IKECHUKWU\Desktop\MultiTracks\.net\MultiTracks.Models\bin\Debug\MultiTracks.Models.pdb
+C:\Users\IKECHUKWU\Desktop\MultiTracks\.net\MultiTracks.Models\obj\Debug\MultiTracks.Models.csproj.AssemblyReference.cache
+C:\Users\IKECHUKWU\Desktop\MultiTracks\.net\MultiTracks.Models\obj\Debug\MultiTracks.Models.csproj.CoreCompileInputs.cache
+C:\Users\IKECHUKWU\Desktop\MultiTracks\.net\MultiTracks.Models\obj\Debug\MultiTracks.Models.dll
+C:\Users\IKECHUKWU\Desktop\MultiTracks\.net\MultiTracks.Models\obj\Debug\MultiTracks.Models.pdb

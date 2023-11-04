@@ -1,0 +1,156 @@
+2023-10-28 16:05:05.8294 DEBUG Hosting starting
+2023-10-28 16:05:06.2148 DEBUG Loaded hosting startup assembly MultiTracks.API
+2023-10-28 16:05:06.2171 INFO Application started. Press Ctrl+C to shut down.
+2023-10-28 16:05:06.2171 INFO Hosting environment: Development
+2023-10-28 16:05:06.2171 INFO Content root path: C:\Users\IKECHUKWU\Desktop\MultiTracks\.net\MultiTracks.API
+2023-10-28 16:05:06.2171 DEBUG Hosting started
+2023-10-28 16:05:06.2715 INFO Request starting HTTP/2.0 GET https://localhost:44327/swagger/index  
+2023-10-28 16:05:06.2715 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-10-28 16:05:06.2715 TRACE All hosts are allowed.
+2023-10-28 16:05:06.3136 DEBUG The request path /index does not match a supported file type
+2023-10-28 16:05:06.3320 DEBUG No candidates found for the request path '/swagger/index'
+2023-10-28 16:05:06.3320 DEBUG Request did not match any endpoints
+2023-10-28 16:05:06.3621 INFO Request finished in 91.8387ms 404 
+2023-10-28 16:05:13.0604 INFO Request starting HTTP/2.0 GET https://localhost:44327/swagger/index  
+2023-10-28 16:05:13.0604 TRACE All hosts are allowed.
+2023-10-28 16:05:13.0604 DEBUG The request path /index does not match a supported file type
+2023-10-28 16:05:13.0604 DEBUG No candidates found for the request path '/swagger/index'
+2023-10-28 16:05:13.0604 DEBUG Request did not match any endpoints
+2023-10-28 16:05:13.0604 INFO Request finished in 5.6767ms 404 
+2023-10-28 16:05:31.7992 INFO Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+2023-10-28 16:05:31.7992 TRACE All hosts are allowed.
+2023-10-28 16:05:31.8650 INFO Request finished in 65.7902ms 200 text/html;charset=utf-8
+2023-10-28 16:05:31.9856 INFO Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+2023-10-28 16:05:31.9856 TRACE All hosts are allowed.
+2023-10-28 16:05:32.0677 INFO Request finished in 82.1249ms 200 application/json;charset=utf-8
+2023-10-28 16:05:58.0729 DEBUG Hosting starting
+2023-10-28 16:05:58.3069 DEBUG Loaded hosting startup assembly MultiTracks.API
+2023-10-28 16:05:58.3177 INFO Application started. Press Ctrl+C to shut down.
+2023-10-28 16:05:58.3177 INFO Hosting environment: Development
+2023-10-28 16:05:58.3177 INFO Content root path: C:\Users\IKECHUKWU\Desktop\MultiTracks\.net\MultiTracks.API
+2023-10-28 16:05:58.3177 DEBUG Hosting started
+2023-10-28 16:05:58.3294 INFO Request starting HTTP/2.0 GET https://localhost:44327/swagger/index.html  
+2023-10-28 16:05:58.3294 DEBUG Wildcard detected, all requests with hosts will be allowed.
+2023-10-28 16:05:58.3294 TRACE All hosts are allowed.
+2023-10-28 16:05:58.3922 INFO Request finished in 64.2304ms 200 text/html;charset=utf-8
+2023-10-28 16:05:58.5548 INFO Request starting HTTP/2.0 GET https://localhost:44327/swagger/v1/swagger.json  
+2023-10-28 16:05:58.5548 TRACE All hosts are allowed.
+2023-10-28 16:05:58.6891 INFO Request finished in 134.1662ms 200 application/json;charset=utf-8
+2023-10-28 16:06:09.3822 INFO Request starting HTTP/2.0 GET https://localhost:44327/api/
+
+/list  
+2023-10-28 16:06:09.3822 TRACE All hosts are allowed.
+2023-10-28 16:06:09.3890 DEBUG The request path  does not match the path filter
+2023-10-28 16:06:09.4152 DEBUG 1 candidate(s) found for the request path '/api/song/list'
+2023-10-28 16:06:09.4152 DEBUG Endpoint 'MultiTracks.API.Controllers.SongController.GetAllSongs (MultiTracks.API)' with route pattern 'api/song/list' is valid for the request path '/api/song/list'
+2023-10-28 16:06:09.4199 DEBUG Request matched endpoint 'MultiTracks.API.Controllers.SongController.GetAllSongs (MultiTracks.API)'
+2023-10-28 16:06:09.4199 INFO Executing endpoint 'MultiTracks.API.Controllers.SongController.GetAllSongs (MultiTracks.API)'
+2023-10-28 16:06:09.4199 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2023-10-28 16:06:09.4799 INFO Route matched with {action = "GetAllSongs", controller = "Song"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllSongs(MultiTracks.API.Models.Pagination.PaginationFilter) on controller MultiTracks.API.Controllers.SongController (MultiTracks.API).
+2023-10-28 16:06:09.4824 DEBUG Execution plan of authorization filters (in the following order): None
+2023-10-28 16:06:09.4824 DEBUG Execution plan of resource filters (in the following order): None
+2023-10-28 16:06:09.4824 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-10-28 16:06:09.4824 DEBUG Execution plan of exception filters (in the following order): None
+2023-10-28 16:06:09.4824 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-10-28 16:06:09.4824 DEBUG Executing controller factory for controller MultiTracks.API.Controllers.SongController (MultiTracks.API)
+2023-10-28 16:06:09.6415 DEBUG An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-10-28 16:06:09.6561 DEBUG Executed controller factory for controller MultiTracks.API.Controllers.SongController (MultiTracks.API)
+2023-10-28 16:06:09.6561 DEBUG Attempting to bind parameter 'filter' of type 'MultiTracks.API.Models.Pagination.PaginationFilter' ...
+2023-10-28 16:06:09.6561 DEBUG Attempting to bind parameter 'filter' of type 'MultiTracks.API.Models.Pagination.PaginationFilter' using the name '' in request data ...
+2023-10-28 16:06:09.6561 DEBUG Could not find a value in the request with name 'PageNumber' for binding property 'MultiTracks.API.Models.Pagination.PaginationFilter.PageNumber' of type 'System.Int32'.
+2023-10-28 16:06:09.6561 DEBUG Done attempting to bind property 'MultiTracks.API.Models.Pagination.PaginationFilter.PageNumber' of type 'System.Int32'.
+2023-10-28 16:06:09.6561 DEBUG Could not find a value in the request with name 'PageSize' for binding property 'MultiTracks.API.Models.Pagination.PaginationFilter.PageSize' of type 'System.Int32'.
+2023-10-28 16:06:09.6561 DEBUG Done attempting to bind property 'MultiTracks.API.Models.Pagination.PaginationFilter.PageSize' of type 'System.Int32'.
+2023-10-28 16:06:09.6561 DEBUG Done attempting to bind parameter 'filter' of type 'MultiTracks.API.Models.Pagination.PaginationFilter'.
+2023-10-28 16:06:09.6561 DEBUG Done attempting to bind parameter 'filter' of type 'MultiTracks.API.Models.Pagination.PaginationFilter'.
+2023-10-28 16:06:09.6561 DEBUG Attempting to validate the bound parameter 'filter' of type 'MultiTracks.API.Models.Pagination.PaginationFilter' ...
+2023-10-28 16:06:09.6561 DEBUG Done attempting to validate the bound parameter 'filter' of type 'MultiTracks.API.Models.Pagination.PaginationFilter'.
+2023-10-28 16:06:09.6561 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-10-28 16:06:09.6561 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-10-28 16:06:09.6561 TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-10-28 16:06:09.6561 TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-10-28 16:06:09.6697 INFO Executing action method MultiTracks.API.Controllers.SongController.GetAllSongs (MultiTracks.API) - Validation state: Valid
+2023-10-28 16:06:09.6697 TRACE Executing action method MultiTracks.API.Controllers.SongController.GetAllSongs (MultiTracks.API) with arguments (MultiTracks.API.Models.Pagination.PaginationFilter)
+2023-10-28 16:06:09.6697 INFO Retrieving Songs from the database
+2023-10-28 16:06:10.0393 INFO Entity Framework Core 3.1.32 initialized 'CoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-10-28 16:06:10.1695 DEBUG queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: new QueryingEnumerable<int>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache, 
+        null, 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, int>, 
+        MultiTracks.API.Context.CoreDbContext, 
+        null
+    ), 
+    cancellationToken: queryContext.CancellationToken)
+2023-10-28 16:06:10.1978 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-10-28 16:06:10.2500 DEBUG Created DbCommand for 'ExecuteReader' (50ms).
+2023-10-28 16:06:10.2500 DEBUG Opening connection to database 'MultiTracksDB' on server 'DIGIT\SQLEXPRESS'.
+2023-10-28 16:06:10.5211 DEBUG Opened connection to database 'MultiTracksDB' on server 'DIGIT\SQLEXPRESS'.
+2023-10-28 16:06:10.5211 DEBUG Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Song] AS [s]
+2023-10-28 16:06:10.5754 INFO Executed DbCommand (50ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Song] AS [s]
+2023-10-28 16:06:10.5754 DEBUG A data reader was disposed.
+2023-10-28 16:06:10.5754 DEBUG Closing connection to database 'MultiTracksDB' on server 'DIGIT\SQLEXPRESS'.
+2023-10-28 16:06:10.5929 DEBUG Closed connection to database 'MultiTracksDB' on server 'DIGIT\SQLEXPRESS'.
+2023-10-28 16:06:10.6278 DEBUG queryContext => new QueryingEnumerable<Song>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, Song>, 
+    MultiTracks.API.Context.CoreDbContext, 
+    null
+)
+2023-10-28 16:06:10.6278 DEBUG Creating DbCommand for 'ExecuteReader'.
+2023-10-28 16:06:10.6278 DEBUG Created DbCommand for 'ExecuteReader' (0ms).
+2023-10-28 16:06:10.6278 DEBUG Opening connection to database 'MultiTracksDB' on server 'DIGIT\SQLEXPRESS'.
+2023-10-28 16:06:10.6444 DEBUG Opened connection to database 'MultiTracksDB' on server 'DIGIT\SQLEXPRESS'.
+2023-10-28 16:06:10.6444 DEBUG Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [s].[songID], [s].[albumID], [s].[artistID], [s].[bpm], [s].[chart], [s].[customMix], [s].[dateCreation], [s].[multitracks], [s].[patches], [s].[proPresenter], [s].[rehearsalMix], [s].[songSpecificPatches], [s].[timeSignature], [s].[title]
+FROM [Song] AS [s]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-10-28 16:06:10.6804 INFO Executed DbCommand (36ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [s].[songID], [s].[albumID], [s].[artistID], [s].[bpm], [s].[chart], [s].[customMix], [s].[dateCreation], [s].[multitracks], [s].[patches], [s].[proPresenter], [s].[rehearsalMix], [s].[songSpecificPatches], [s].[timeSignature], [s].[title]
+FROM [Song] AS [s]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-10-28 16:06:10.6995 DEBUG Context 'CoreDbContext' started tracking 'Song' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-28 16:06:10.7167 DEBUG Context 'CoreDbContext' started tracking 'Song' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-28 16:06:10.7167 DEBUG Context 'CoreDbContext' started tracking 'Song' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-28 16:06:10.7167 DEBUG Context 'CoreDbContext' started tracking 'Song' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-28 16:06:10.7167 DEBUG Context 'CoreDbContext' started tracking 'Song' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-28 16:06:10.7167 DEBUG Context 'CoreDbContext' started tracking 'Song' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-28 16:06:10.7167 DEBUG Context 'CoreDbContext' started tracking 'Song' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-28 16:06:10.7167 DEBUG Context 'CoreDbContext' started tracking 'Song' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-28 16:06:10.7167 DEBUG Context 'CoreDbContext' started tracking 'Song' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-28 16:06:10.7167 DEBUG Context 'CoreDbContext' started tracking 'Song' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-10-28 16:06:10.7167 DEBUG A data reader was disposed.
+2023-10-28 16:06:10.7167 DEBUG Closing connection to database 'MultiTracksDB' on server 'DIGIT\SQLEXPRESS'.
+2023-10-28 16:06:10.7167 DEBUG Closed connection to database 'MultiTracksDB' on server 'DIGIT\SQLEXPRESS'.
+2023-10-28 16:06:10.7167 INFO Executed action method MultiTracks.API.Controllers.SongController.GetAllSongs (MultiTracks.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1050.4364ms.
+2023-10-28 16:06:10.7167 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-10-28 16:06:10.7167 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2023-10-28 16:06:10.7167 TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-10-28 16:06:10.7167 TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2023-10-28 16:06:10.7167 TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-10-28 16:06:10.7167 TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-10-28 16:06:10.7167 TRACE Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-10-28 16:06:10.7167 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-10-28 16:06:10.7167 DEBUG No information found on request to perform content negotiation.
+2023-10-28 16:06:10.7167 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-10-28 16:06:10.7167 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+2023-10-28 16:06:10.7167 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-10-28 16:06:10.7167 INFO Executing ObjectResult, writing value of type 'MultiTracks.API.Models.Pagination.PagedResponse`1[[System.Collections.Generic.IEnumerable`1[[MultiTracks.API.Models.Song, MultiTracks.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-28 16:06:10.7360 TRACE After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2023-10-28 16:06:10.7360 TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-10-28 16:06:10.7360 TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2023-10-28 16:06:10.7360 INFO Executed action MultiTracks.API.Controllers.SongController.GetAllSongs (MultiTracks.API) in 1253.4179ms
+2023-10-28 16:06:10.7360 INFO Executed endpoint 'MultiTracks.API.Controllers.SongController.GetAllSongs (MultiTracks.API)'
+2023-10-28 16:06:10.7360 DEBUG 'CoreDbContext' disposed.
+2023-10-28 16:06:10.7360 INFO Request finished in 1362.7279ms 200 application/json; charset=utf-8

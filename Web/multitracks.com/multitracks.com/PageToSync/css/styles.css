@@ -1,0 +1,11 @@
+﻿.read-more-btn {
+    color: #0984e3;
+}
+
+.read-more-text {
+    display: none;
+}
+
+.read-more-text--show {
+    display: inline;
+}
